@@ -57,14 +57,3 @@ $(document).ready(function() {
     });
 
 });
-
-function validar(){
-    var Nombre, Apellidos, Correo;
-    Nombre = document.getElementById("nombre").value;
-    Apellidos = document.getElementById("nombre").value;
-    Gmil = document.getElementById("nombre").value;
-
-    if(nombre === ""){
-        alert("El campo nombre está incompleto")
-    }
-}
